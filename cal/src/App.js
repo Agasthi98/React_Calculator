@@ -103,6 +103,9 @@ const reset = () => {
 }
 
   return (
+    <div className='title'>
+      <h1><center> <span className='text-warning'>React.js</span> Calculator</center></h1>
+    <br></br>
     <div className = 'container'>
       <div className='wrapper'>
       <div className='screen'>
@@ -178,6 +181,7 @@ const reset = () => {
           =
         </div>
       </div>
+    </div>
     </div>
   );
 }

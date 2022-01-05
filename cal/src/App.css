@@ -26,7 +26,7 @@ body{
   height: 80vh;
   width: 50vh;
   border-radius: 1rem;
-  border: 2px solid rgb(7, 125, 180);
+  border: 2px solid orange;
   padding: 1rem;
   /* -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
@@ -89,4 +89,13 @@ body{
   place-content: unset;
   align-items: center;
   padding-left: 2rem;
+}
+
+.title{
+  color: white;
+  font-size: 20px;
+}
+
+.text-warning{
+  color: orange;
 }
